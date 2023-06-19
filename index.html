@@ -6,12 +6,17 @@
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="data/components/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="data/components/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="data/components/favicon.png">
 </head>
 
-<body>
+<body class="indexBody">
 <div class="hide" id="body">
     <div class="initial">
-        <img src="data/laura.svg">
+        <img src="data/components/laura.svg">
     </div>
 
 
@@ -22,7 +27,7 @@
         <div class="text_about">
             <h1>GRAPHIC & WEBDESIGNER</h1>
             <div class="intro">
-                <p>Hey, My name is <a id="me">Laura Pais<img class="perfil" src="data/Foto.png"></a>, I'm a designer
+                <p>Hey, My name is <a id="me">Laura Pais<img class="perfil" src="data/components/Foto.png"></a>, I'm a designer
                     from Coimbra, Portugal with a bachelor in Design and Multimedia at the
                     University of Coimbra and currently doing a master in Design and Multimedia.</p>
             </div>
@@ -44,8 +49,32 @@
 
 
     <div class="portfolio">
+
+        <!-- <div class="trabalho">
+
+
+             <div class="projeto">
+                 <span>Graphic Ground</span>
+                 <img class="hidden_img" src="data/projetos/corrupt_white.png" style="height: 20em">
+             </div>
+             <div class="descricao">
+                 <div>
+                     <p>Generative Design</p>
+                     <p>Web Design</p>
+                     <p>2023</p>
+                 </div>
+                 <div class="seta">
+                     <img src="data/components/seta.svg">
+                 </div>
+             </div>
+         </div>
+
+         <div class="line"></div>  -->
+
+        <!-- --------------------------------------------------------------------------------------------- -->
+
         <div class="trabalho"
-             onclick="window.open('https://www.behance.net/gallery/120641813/Corrupt-White', '_blank')">
+             onclick="window.open('projectPages/corruptWhite.html')">
 
             <div class="projeto">
                 <span>Corrupt White</span>
@@ -53,31 +82,80 @@
             </div>
             <div class="descricao">
                 <div>
-                    <p>Interactive Experience</p>
+                    <p>Interaction Design</p>
+                    <p>Web Design</p>
                     <p>2021</p>
                 </div>
                 <div class="seta">
-                    <img src="data/seta.svg">
+                    <img src="data/components/seta.svg">
                 </div>
             </div>
         </div>
 
         <div class="line"></div>
 
+        <!-- --------------------------------------------------------------------------------------------- -->
+
         <div class="trabalho"
-             onclick="window.open('https://www.behance.net/gallery/136516271/Alta-Baixa-Magazine-Editorial-Website', '_blank')">
+             onclick="window.open('projectPages/aLeste.html')">
 
             <div class="projeto">
-                <span>Alta & Baixa</span>
-                <img class="hidden_img" src="data/projetos/altaebaixa.png" style="height: 30em">
+                <span>A Leste</span>
+                <img class="hidden_img" src="data/projetos/aleste.png" style="height: 25em">
             </div>
             <div class="descricao">
                 <div>
-                    <p>Magazine and Editorial Website</p>
+                    <p>Visual Identity</p>
+                    <p>Web Design</p>
+                    <p>2021</p>
+                </div>
+                <div class="seta">
+                    <img src="data/components/seta.svg">
+                </div>
+            </div>
+        </div>
+
+        <div class="line"></div>
+
+        <!-- --------------------------------------------------------------------------------------------- -->
+
+        <div class="trabalho"
+             onclick="window.open('projectPages/altaBaixa.html')">
+
+            <div class="projeto">
+                <span>Alta & Baixa</span>
+                <img class="hidden_img" src="data/projetos/altaBaixa.jpg" style="height: 25em">
+            </div>
+            <div class="descricao">
+                <div>
+                    <p>Graphic Design</p>
+                    <p>Web Design</p>
                     <p>2022</p>
                 </div>
                 <div class="seta">
-                    <img src="data/seta.svg">
+                    <img src="data/components/seta.svg">
+                </div>
+            </div>
+        </div>
+
+        <div class="line"></div>
+
+        <!-- --------------------------------------------------------------------------------------------- -->
+
+        <div class="trabalho">
+
+            <div class="projeto">
+                <span>Disruptive Exhibition</span>
+                <img class="hidden_img" src="data/projetos/Disruptive.png" style="height: 25em">
+            </div>
+            <div class="descricao">
+                <div>
+                    <p>Visual Identity</p>
+                    <p>Graphic Design</p>
+                    <p>2022</p>
+                </div>
+                <div class="seta">
+                    <img src="data/components/seta.svg">
                 </div>
             </div>
         </div>
@@ -85,8 +163,10 @@
         <div class="line"></div>
 
 
-        <div class="trabalho"
-             onclick="window.open('https://www.behance.net/gallery/136420423/Tamara-Modular-Font', '_blank')">
+        <!-- --------------------------------------------------------------------------------------------- -->
+
+
+        <div class="trabalho">
 
             <div class="projeto">
                 <span>Tamara</span>
@@ -94,40 +174,44 @@
             </div>
             <div class="descricao">
                 <div>
-                    <p>Modular Font</p>
+                    <p>Typography</p>
                     <p>2022</p>
                 </div>
                 <div class="seta">
-                    <img src="data/seta.svg">
+                    <img src="data/components/seta.svg">
                 </div>
             </div>
         </div>
 
         <div class="line"></div>
 
+        <!-- --------------------------------------------------------------------------------------------- -->
 
         <div class="trabalho"
-             onclick="window.open('https://www.behance.net/gallery/98053217/CCDM-%28Graphic-Identity%29', '_blank')">
+             onclick="window.open('projectPages/ccdm.html')">
+
             <div class="projeto">
                 <span>CCDM</span>
                 <img class="hidden_img" src="data/projetos/ciclo_conversas.png" style="height:15em">
             </div>
             <div class="descricao">
                 <div>
-                    <p>Graphic Identity</p>
+                    <p>Visual Identity</p>
+                    <p>Web Design</p>
                     <p>2021</p>
                 </div>
 
                 <div class="seta">
-                    <img src="data/seta.svg">
+                    <img src="data/components/seta.svg">
                 </div>
             </div>
         </div>
 
         <div class="line"></div>
 
-        <div class="trabalho"
-             onclick="window.open('https://www.behance.net/gallery/79100025/Human-Rights-Poster-Mut-zur-Wut', '_blank')">
+        <!-- --------------------------------------------------------------------------------------------- -->
+
+        <div class="trabalho">
 
             <div class="projeto">
                 <span>Mut Zur Wut</span>
@@ -135,38 +219,40 @@
             </div>
             <div class="descricao">
                 <div>
-                    <p>Poster</p>
+                    <p>Graphic Design</p>
                     <p>2019</p>
                 </div>
                 <div class="seta">
-                    <img src="data/seta.svg">
+                    <img src="data/components/seta.svg">
                 </div>
             </div>
         </div>
 
         <div class="line"></div>
 
-        <div class="trabalho"
-             onclick="window.open('https://www.behance.net/gallery/136724123/Graphic-Design-Timeline-Website', '_blank')">
+        <!-- --------------------------------------------------------------------------------------------- -->
+
+        <div class="trabalho">
             <div class="projeto">
                 <span>Graphic Design Timeline</span>
-                <img class="hidden_img" src="data/projetos/narrativa.png" style="height: 25em">
+                <img class="hidden_img" src="data/projetos/narrativa.png" style="height: 20em">
             </div>
             <div class="descricao">
                 <div>
-                    <p>Website</p>
+                    <p>Web Design</p>
                     <p>2022</p>
                 </div>
                 <div class="seta">
-                    <img src="data/seta.svg">
+                    <img src="data/components/seta.svg">
                 </div>
             </div>
         </div>
 
         <div class="line"></div>
 
-        <div class="trabalho"
-             onclick="window.open('https://www.behance.net/gallery/136477929/OSSO-Editorial-Website', '_blank')">
+        <!-- --------------------------------------------------------------------------------------------- -->
+
+        <div class="trabalho">
 
             <div class="projeto">
                 <span>OSSO</span>
@@ -174,11 +260,11 @@
             </div>
             <div class="descricao">
                 <div>
-                    <p>Editorial Website</p>
+                    <p>Web Design</p>
                     <p>2022</p>
                 </div>
                 <div class="seta">
-                    <img src="data/seta.svg">
+                    <img src="data/components/seta.svg">
                 </div>
             </div>
         </div>
@@ -186,67 +272,9 @@
         <div class="line"></div>
 
 
-        <div class="trabalho"
-             onclick="window.open('https://www.behance.net/gallery/99948029/PR83-%28Short-Film%29', '_blank')">
+        <!-- --------------------------------------------------------------------------------------------- -->
 
-            <div class="projeto">
-                <span>PR83</span>
-                <img class="hidden_img" src="data/projetos/pr83.png" style="height:30em">
-            </div>
-            <div class="descricao">
-                <div>
-                    <p>Short Film</p>
-                    <p>2020</p>
-                </div>
-                <div class="seta">
-                    <img src="data/seta.svg">
-                </div>
-            </div>
-        </div>
-
-        <div class="line"></div>
-
-        <div class="trabalho"
-             onclick="window.open('https://www.behance.net/gallery/97554133/After-the-quarantine-2D-Animation', '_blank')">
-            <div class="projeto">
-                <span>After the Quarantine</span>
-                <img class="hidden_img" src="data/projetos/quarentine.png" style="height: 20em">
-            </div>
-            <div class="descricao">
-                <div>
-                    <p>Animation</p>
-                    <p>2020</p>
-                </div>
-                <div class="seta">
-                    <img src="data/seta.svg">
-                </div>
-            </div>
-        </div>
-
-        <div class="line"></div>
-
-        <div class="trabalho" onclick="window.open('https://www.behance.net/gallery/81511475/Corax', '_blank')">
-
-            <div class="projeto">
-                <span>Corax</span>
-                <img class="hidden_img" src="data/projetos/corax.png" style="height: 20em">
-            </div>
-            <div class="descricao">
-                <div>
-                    <p>Music Visualizer</p>
-                    <p>2019</p>
-                </div>
-
-                <div class="seta">
-                    <img src="data/seta.svg">
-                </div>
-            </div>
-        </div>
-
-        <div class="line"></div>
-
-        <div class="trabalho"
-             onclick="window.open('https://www.behance.net/gallery/103550327/Poster-collection', '_blank')">
+        <div class="trabalho">
 
             <div class="projeto">
                 <span>Poster Collection</span>
@@ -254,51 +282,33 @@
             </div>
             <div class="descricao">
                 <div>
-                    <p>Posters</p>
+                    <p>Graphic Design</p>
                     <p>2020</p>
                 </div>
                 <div class="seta">
-                    <img src="data/seta.svg">
+                    <img src="data/components/seta.svg">
                 </div>
             </div>
         </div>
 
         <div class="line"></div>
 
-        <div class="trabalho"
-             onclick="window.open('https://www.behance.net/gallery/116834667/Crimes-Exemplares', '_blank')">
 
+        <!-- --------------------------------------------------------------------------------------------- -->
+
+        <div class="trabalho">
             <div class="projeto">
                 <span>Crimes Exemplares</span>
-                <img class="hidden_img" src="data/projetos/posters_ar2.png" style="height:27em">
+                <img class="hidden_img" src="data/projetos/crimes_exemplares_tabuleiro.png" style="height: 35em">
             </div>
             <div class="descricao">
                 <div>
-                    <p>AR Posters</p>
-                    <p>2019</p>
-                </div>
-
-                <div class="seta">
-                    <img src="data/seta.svg">
-                </div>
-            </div>
-        </div>
-
-        <div class="line"></div>
-
-        <div class="trabalho"
-             onclick="window.open('https://www.behance.net/gallery/116834667/Crimes-Exemplares', '_blank')">
-            <div class="projeto">
-                <span>Crimes Exemplares</span>
-                <img class="hidden_img" src="data/projetos/crimes_exemplares_tabuleiro.png" style="height: 30em">
-            </div>
-            <div class="descricao">
-                <div>
-                    <p>Jogo de Tabuleiro</p>
+                    <p>Graphic Design</p>
+                    <p>Interaction Design</p>
                     <p>2019</p>
                 </div>
                 <div class="seta">
-                    <img src="data/seta.svg">
+                    <img src="data/components/seta.svg">
                 </div>
             </div>
         </div>
@@ -309,7 +319,7 @@
     <div>
         <a href="https://www.behance.net/paislaura" target="_blank"><span>Behance</span></a>
         <a href="https://www.linkedin.com/in/laura-pais-319688173/" target="_blank"><span>Linkedin</span></a>
-        <a href="mailto:pais.laura@gmail.com" target="_blank"><span>Mail</span></a>
+        <a href="mailto:pais.laura@gmail.com" target="_blank"><span>E-Mail</span></a>
     </div>
 </footer>
 </div>

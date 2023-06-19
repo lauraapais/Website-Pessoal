@@ -10,6 +10,13 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -19,11 +26,24 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../../../design/MC Hospitality Advisors/MC-Hospitality-Advisors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\paisl\Desktop\uni\Mestrado\1ºano\1º semestre\Desenvolvimento Web\exercícios\ex2\Website-Pessoal\projectPages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\paisl\Desktop\design\Marca Pessoal [Logo, Portfólio]\Website-Pessoal\projectPages" />
+      <recent name="C:\Users\paisl\Desktop\design\Marca Pessoal [Logo, Portfólio]\Website-Pessoal\projectPages\dataProjects\ccdm" />
+      <recent name="C:\Users\paisl\Desktop\uni\Mestrado\1ºano\1º semestre\Desenvolvimento Web\exercícios\ex2\Website-Pessoal" />
+      <recent name="C:\Users\paisl\Desktop\uni\Mestrado\1ºano\1º semestre\Desenvolvimento Web\exercícios\ex2\Website-Pessoal\data\components" />
+      <recent name="C:\Users\paisl\Desktop\uni\Mestrado\1ºano\1º semestre\Desenvolvimento Web\exercícios\ex2\Website-Pessoal\data\fonts" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -47,6 +67,23 @@
       <workItem from="1672068446426" duration="877000" />
       <workItem from="1672074665996" duration="284000" />
       <workItem from="1672224191576" duration="52000" />
+      <workItem from="1684328914999" duration="849000" />
+      <workItem from="1684346382491" duration="6162000" />
+      <workItem from="1684407930969" duration="5516000" />
+      <workItem from="1684429988870" duration="3396000" />
+      <workItem from="1684446372452" duration="1827000" />
+      <workItem from="1684505572672" duration="353000" />
+      <workItem from="1684510379227" duration="1077000" />
+      <workItem from="1684511493205" duration="420000" />
+      <workItem from="1684519681765" duration="1458000" />
+      <workItem from="1684592345168" duration="575000" />
+      <workItem from="1684751878031" duration="674000" />
+      <workItem from="1684944109166" duration="20000" />
+      <workItem from="1686854707502" duration="1517000" />
+      <workItem from="1687034730948" duration="4866000" />
+      <workItem from="1687084589882" duration="725000" />
+      <workItem from="1687174805904" duration="5125000" />
+      <workItem from="1687196904685" duration="852000" />
     </task>
     <servers />
   </component>

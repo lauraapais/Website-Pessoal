@@ -15,7 +15,7 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 }
 
 function preload() {
-    fontRegular = loadFont('data/Barracuda-regular.ttf');
+    fontRegular = loadFont('data/fonts/Barracuda-regular.ttf');
 }
 
 function setup() {
