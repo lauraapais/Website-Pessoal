@@ -126,11 +126,11 @@ p {
 
 .intro p{
     display: inline;
-    font-size: 1.4em !important;
+    font-size: calc(18.3px + 0.3vw);
 }
 
 .part2_intro p{
-    font-size: 1.4em !important;
+    font-size: calc(18.3px + 0.3vw);
 }
 
 .intro{
@@ -249,6 +249,23 @@ p {
 
 .seta img {
     width: 4em;
+}
+
+iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(var(--aspect-ratio, .5625) * 100%);
+
+}
+
+.video{
+    width:60vw;
+    position: relative;
+    padding-bottom: 50%;
+    height: 0;
+
 }
 
 
