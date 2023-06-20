@@ -431,9 +431,11 @@ iframe{
 .urlWebsite{
     text-decoration: none;
     font-size: calc(60px + 0.3vw);
+
 }
 
 .mainImages a{
+    margin-top: 5vh;
     color: #D4D6D4;
     text-decoration-color:  #D4D6D4;
 }
