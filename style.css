@@ -447,7 +447,7 @@ iframe{
 }
 
 .projectDescription{
-    width: 55%;
+    width: 50%;
 }
 
 .descriptionImage img{
@@ -456,7 +456,6 @@ iframe{
 
 .mainProjectInfo div span{
     margin-right: 2vw;
-    margin-bottom: 8vh;
 }
 
 .projectTools{
@@ -519,7 +518,7 @@ iframe{
 }
 
 .projectDescription p{
-    margin-bottom: 0.5vh;
+    margin-bottom: 0.3vh;
 }
 
 .projectTools p{
@@ -539,7 +538,7 @@ iframe{
 .descriptionImage{
     display: flex;
     justify-content: space-between;
-    min-height: 60vh;
+    min-height: 72vh;
 }
 
 #aLesteImage{
@@ -552,26 +551,56 @@ iframe{
     width: fit-content;
 }
 
+#logoCorruptWhite{
+    width:7vw;
+    height: auto;
+}
+
+#logoDisruptive{
+    width:8vw;
+    height: auto;
+}
+
 #logoCCDM{
     width: 10vw;
+    height: auto;
 }
 
 #logoDarq{
     width: 10vw;
+    height: auto;
 }
 
 #logoCrimes{
     width: 10vw;
+    height: auto;
 }
 
 #logoTamara{
     width: 6vw;
+    height: auto;
+}
+
+#logoOsso{
+    width: 15vw;
+    height: auto;
 }
 
 .mainImages video{
-    width: 50vw;
+    width: 60vw;
     margin: 0 auto;
+    margin-top: 5vh;
     display: flex;
+    filter: drop-shadow(2px 4px 6px rgb(25,25,25));
+}
+
+#videoTamara{
+    width:50vw;
+}
+
+
+.videoDarq{
+    width:55vw!important;
 }
 
 .imgWidth{
@@ -709,7 +738,7 @@ iframe{
     }
 
     .projectDescription p{
-        font-size: calc(12px + 0.3vw) !important;
+        font-size: calc(14px + 0.3vw) !important;
     }
 
     .projectContext p:last-child {
@@ -718,6 +747,11 @@ iframe{
 
     .projectTitle span{
         font-size: calc(50px + 0.3vw)!important;
+        line-height: calc(50px + 0.3vw);
+    }
+
+    .projectContext p{
+        width:100%;
     }
 
     .part2_intro{
@@ -727,10 +761,6 @@ iframe{
     .projectContext{
         flex-direction: column;
         margin-bottom: 2vh;
-    }
-
-    .mainProjectInfo div span {
-        margin-bottom: 4vh;
     }
 
 
@@ -743,7 +773,7 @@ iframe{
     }
 
     .descriptionImage{
-        min-height: 65vh;
+        min-height: 70vh;
     }
 
     .contacts span{
@@ -753,4 +783,16 @@ iframe{
     .projectCodes img{
         margin-bottom: 2vh;
     }
+
+    .imgWidth{
+        width: 100vw!important;
+        margin: auto;
+        display: flex;
+        margin-top: 2vh;}
+
+    #altaBaixaImage{
+        height: 7vw;
+    }
+
+
 }
