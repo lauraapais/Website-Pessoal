@@ -769,7 +769,7 @@ iframe{
 
     .projectTitle span{
         font-size: calc(50px + 0.3vw)!important;
-        line-height: calc(50px + 0.3vw);
+        line-height: calc(50px + 0.3vw)!important;
     }
 
     .projectContext p{
@@ -800,6 +800,7 @@ iframe{
     .projectContext{
         flex-direction: column;
         margin-bottom: 2vh;
+        margin-top: 2vh;
     }
 
 
