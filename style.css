@@ -812,7 +812,7 @@ iframe{
     }
 
     .descriptionImage{
-        min-height: 80vh;
+        min-height: 70vh;
         margin-bottom: 10vh;
     }
 
@@ -874,6 +874,7 @@ iframe{
 
     .arrow{
         width: 8vw;
+        display: none;
     }
 
     .projectCodes p{
