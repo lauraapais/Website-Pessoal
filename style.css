@@ -50,7 +50,8 @@ h1 {
 
 span {
     color: #D4D6D4;
-    font-size: 7.5em;
+    font-size: calc(120px + 0.3vw);
+    line-height:calc(110px + 0.3vw) ;
     margin: 0;
     font-family: Barracuda;
     text-transform: uppercase;
@@ -134,8 +135,8 @@ p {
 }
 
 .intro{
-    width: 40%;
-    margin-top: 2em;
+    width: 47%;
+    margin-top: 2vh;
     margin-left: 5vw;
 }
 
@@ -412,11 +413,11 @@ iframe{
 }
 
 .projectContext p{
-    width: 15vw;
+    width: 17vw;
 }
 
 .mainProjects{
-    width: 80vw;
+    width: 100%;
     margin: 0 auto;
     padding-bottom: 10vh;
     font-size: calc(12px + 0.3vw);
@@ -426,6 +427,7 @@ iframe{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width:60vw;
 }
 
 .urlWebsite{
@@ -444,6 +446,7 @@ iframe{
 /* ----------------  Projects ---------------- */
 .mainProjectInfo{
     width:80vw;
+    margin: 0 auto;
 }
 
 .projectDescription{
@@ -527,12 +530,11 @@ iframe{
 }
 
 .mainImages{
-    margin-top: 15vh;
+    margin: 15vh auto 0 auto;
 }
 
 .mainImages img{
     filter: drop-shadow(2px 4px 6px rgb(25,25,25));
-    width: 60vw;
 }
 
 .descriptionImage{
@@ -587,7 +589,7 @@ iframe{
 }
 
 .mainImages video{
-    width: 60vw;
+    width: 100%;
     margin: 0 auto;
     margin-top: 5vh;
     display: flex;
@@ -598,13 +600,14 @@ iframe{
     width:50vw;
 }
 
-
-.videoDarq{
-    width:55vw!important;
+#videoAlta{
+    width:50vw;
 }
 
+
+
 .imgWidth{
-    width: 65vw!important;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     margin-top: 5vh;
@@ -616,6 +619,17 @@ iframe{
 .imageProject{
     position: absolute!important;
     right:0;
+}
+
+.imgRow{
+    margin-top: 5vh;
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+}
+
+.imgRow img{
+    width: 48.5%;
 }
 
 
@@ -631,7 +645,6 @@ iframe{
     .intro {
         width: 90%;
         margin: 0 auto;
-        margin-left: 2vh !important;
         margin-top: 6vh !important;
     }
 
@@ -665,6 +678,7 @@ iframe{
 
     span{
         font-size: calc(40px + 0.3vw)!important;
+        line-height: calc(38px + 0.3vw)!important;
     }
 
     .descricao div p {
@@ -746,16 +760,33 @@ iframe{
     }
 
     .projectTitle span{
-        font-size: calc(50px + 0.3vw)!important;
-        line-height: calc(50px + 0.3vw);
+        font-size: calc(45px + 0.3vw)!important;
+        line-height: calc(45px + 0.3vw);
     }
 
     .projectContext p{
         width:100%;
     }
 
-    .part2_intro{
-        margin-left: 0 auto;
+    .mainImages{
+        width:80vw;
+        margin-top: 1vh;
+    }
+
+    .imgRow img {
+        width: 48.5%;
+    }
+
+    .imgWidth{
+        width:100%;
+        margin: auto;
+        display: flex;
+        margin-top: 3vh;
+    }
+
+    .imgRow{
+        width:80vw;
+        margin-top: 1vh;
     }
 
     .projectContext{
@@ -773,7 +804,8 @@ iframe{
     }
 
     .descriptionImage{
-        min-height: 70vh;
+        min-height: 75vh;
+        margin-bottom: 10vh;
     }
 
     .contacts span{
@@ -784,15 +816,51 @@ iframe{
         margin-bottom: 2vh;
     }
 
-    .imgWidth{
-        width: 100vw!important;
-        margin: auto;
-        display: flex;
-        margin-top: 2vh;}
+
 
     #altaBaixaImage{
         height: 7vw;
     }
 
+    #aLesteImage {
+        height: 20vw;
+    }
 
+    #logoCorruptWhite{
+        height: 20vw;
+        width: fit-content;
+    }
+
+    #logoCCDM{
+        height: 18vw;
+        width: fit-content;
+    }
+
+    #logoDisruptive {
+        width: 15vw;
+        height: auto;
+    }
+
+    #logoDarq {
+        width: 15vw;
+        height: auto;
+    }
+
+    #logoTamara {
+        width: 12vw;
+        height: auto;
+    }
+
+    #altaBaixaImage {
+        height: 10vw;
+    }
+    #logoOsso {
+        width: 25vw;
+        height: auto;
+    }
+
+    #logoCrimes {
+        width: 25vw;
+        height: auto;
+    }
 }
