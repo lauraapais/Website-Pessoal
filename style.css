@@ -752,7 +752,7 @@ iframe{
     }
 
     .projectDescription p{
-        font-size: calc(14px + 0.3vw) !important;
+        font-size: calc(13px + 0.3vw) !important;
     }
 
     .projectContext p:last-child {
