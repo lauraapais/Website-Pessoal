@@ -453,12 +453,20 @@ iframe{
     width: 50%;
 }
 
-.descriptionImage img{
+.imageProject{
     align-self: end;
 }
 
 .mainProjectInfo div span{
     margin-right: 2vw;
+}
+
+.arrow{
+    width: 3vw;
+    height: fit-content;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
 }
 
 .projectTools{
@@ -760,8 +768,8 @@ iframe{
     }
 
     .projectTitle span{
-        font-size: calc(45px + 0.3vw)!important;
-        line-height: calc(45px + 0.3vw);
+        font-size: calc(50px + 0.3vw)!important;
+        line-height: calc(50px + 0.3vw);
     }
 
     .projectContext p{
@@ -804,7 +812,7 @@ iframe{
     }
 
     .descriptionImage{
-        min-height: 70vh;
+        min-height: 80vh;
         margin-bottom: 10vh;
     }
 
@@ -862,5 +870,13 @@ iframe{
     #logoCrimes {
         width: 25vw;
         height: auto;
+    }
+
+    .arrow{
+        width: 8vw;
+    }
+
+    .projectCodes p{
+        display: none;
     }
 }
