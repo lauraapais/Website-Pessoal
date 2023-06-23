@@ -547,6 +547,7 @@ iframe{
 
 .descriptionImage{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     min-height: 72vh;
 }
@@ -624,16 +625,18 @@ iframe{
 .mainProjectInfo{
     position: relative!important;
 }
-.imageProject{
-    position: absolute!important;
-    right:0;
-}
 
 .imgRow{
     margin-top: 5vh;
     display: flex;
     width:100%;
     justify-content: space-between;
+}
+
+.imageText{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5vw;
 }
 
 .imgRow img{
@@ -873,9 +876,14 @@ iframe{
         height: auto;
     }
 
+    .imageText{
+        justify-content: space-between;
+        align-items: center;
+    }
+
     .arrow{
         width: 8vw;
-        display: none;
+        position: initial;
     }
 
     .projectCodes p{
