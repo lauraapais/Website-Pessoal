@@ -696,6 +696,9 @@ iframe{
         font-size: calc(10px + 0.3vw)!important;
     }
 
+    .websiteNone{
+        display: none;
+    }
 
     .seta img{
         width: 5vw;
