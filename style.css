@@ -272,8 +272,8 @@ iframe{
 
 .line {
     width: 100%;
-    margin-bottom: 0.5em;
-    border-bottom: 1px solid #D4D6D4;
+    margin-bottom: 1em;
+    border-bottom: 2px solid #D4D6D4;
 }
 
 .seta {
