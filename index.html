@@ -1,317 +1,320 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Laura Pais</title>
-    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cursor.css">
+    <link rel="stylesheet" href="locomotive-scroll.css">
+    <!-- JAVASCRIPT-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="js/locomotive-scroll.min.js"></script>
 
-
-    <link rel="apple-touch-icon" sizes="180x180" href="data/components/favicon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="data/components/favicon.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="data/components/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="data/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="data/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="data/favicon.png">
 </head>
 
-<body class="indexBody">
-<div class="hide" id="body">
-    <div class="initial">
-        <img src="data/components/laura.svg">
+<body data-scroll-container>
+
+<header data-scroll-section>
+    <svg width="53" height="53" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g clip-path="url(#clip0_53_53)">
+            <path d="M26.6366 52.9224L29.3857 52.7461L28.1032 32.7512L25.3541 32.9275L26.6366 52.9224Z" fill="#141414"/>
+            <path d="M16.5391 51.0347L19.1464 51.9238L25.6133 32.9601L23.006 32.071L16.5391 51.0347Z" fill="#141414"/>
+            <path d="M7.92467 45.4225L9.99323 47.2417L23.2249 32.1963L21.1564 30.3771L7.92467 45.4225Z" fill="#141414"/>
+            <path d="M2.11961 36.9427L3.33453 39.415L21.3167 30.5784L20.1017 28.1061L2.11961 36.9427Z" fill="#141414"/>
+            <path d="M-0.00146237 26.8944L0.174866 29.6434L20.1698 28.3609L19.9935 25.6119L-0.00146237 26.8944Z"
+                  fill="#141414"/>
+            <path d="M1.88746 16.796L0.998352 19.4033L19.9621 25.8702L20.8512 23.2629L1.88746 16.796Z" fill="#141414"/>
+            <path d="M7.49626 8.18852L5.67706 10.2571L20.7225 23.4888L22.5417 21.4202L7.49626 8.18852Z" fill="#141414"/>
+            <path d="M15.9729 2.37736L13.5006 3.59229L22.3372 21.5744L24.8095 20.3595L15.9729 2.37736Z" fill="#141414"/>
+            <path d="M26.0254 0.258364L23.2763 0.434692L24.5588 20.4296L27.3079 20.2533L26.0254 0.258364Z"
+                  fill="#141414"/>
+            <path d="M36.1227 2.14168L33.5154 1.25256L27.0485 20.2163L29.6558 21.1054L36.1227 2.14168Z" fill="#141414"/>
+            <path d="M44.7337 7.75218L42.6651 5.93298L29.4334 20.9784L31.502 22.7976L44.7337 7.75218Z" fill="#141414"/>
+            <path d="M50.5427 16.2278L49.3278 13.7555L31.3457 22.5921L32.5606 25.0644L50.5427 16.2278Z" fill="#141414"/>
+            <path d="M52.6625 26.283L52.4862 23.5339L32.4913 24.8164L32.6676 27.5655L52.6625 26.283Z" fill="#141414"/>
+            <path d="M50.7787 36.3857L51.6678 33.7784L32.7041 27.3116L31.815 29.9189L50.7787 36.3857Z" fill="#141414"/>
+            <path d="M45.1651 44.9939L46.9843 42.9253L31.9388 29.6936L30.1196 31.7622L45.1651 44.9939Z" fill="#141414"/>
+            <path d="M36.6923 50.7982L39.1646 49.5833L30.328 31.6011L27.8557 32.8161L36.6923 50.7982Z" fill="#141414"/>
+            <path d="M26.1251 34.2691C30.1557 34.2691 33.4231 31.0016 33.4231 26.9711C33.4231 22.9405 30.1557 19.6731 26.1251 19.6731C22.0946 19.6731 18.8271 22.9405 18.8271 26.9711C18.8271 31.0016 22.0946 34.2691 26.1251 34.2691Z"
+                  fill="#141414"/>
+        </g>
+        <defs>
+            <clipPath id="clip0_53_53">
+                <rect width="52.6614" height="52.6614" fill="white" transform="translate(0 0.256348)"/>
+            </clipPath>
+        </defs>
+    </svg>
+    <nav>
+        <div class="role">
+            <span>Graphic Designer</span>
+            <span>Digital Designer</span>
+            <svg xmlns="http://www.w3.org/2000/svg"
+                 viewBox="1.6864013671875 1.516890048980713 1091.7935791015625 412.8152770996094" fill="none"
+                 preserveAspectRatio="xMidYMid meet" role="img">
+                <path d="M309.183 105.232C1092.84 -21.0972 1296.98 179.124 651.333 342.441C-41.6117 517.721 -159.214 335.625 198.72 188.158C436.665 90.1248 758.897 47.4114 1093.48 1.51689"
+                      stroke="var(--secondColor)" stroke-width="2" stroke-linecap="round"></path>
+            </svg>
+        </div>
+        <div class="menuHeader">
+            <span class="hover-link">ABOUT</span>
+            <span class="hover-link">PROJECTS</span>
+        </div>
+    </nav>
+</header>
+
+<main data-scroll-section>
+    <div class="mainIndex">
+        <div class="nameIndex">
+            <span class="hover-link" id="lauraPais"><a id="me">Laura Pais<img class="perfil" src="data/index/Foto.png"></a></span>
+        </div>
+        <svg width=" 286 " height="279 " viewBox="0 0 286 279 " fill="none " xmlns="http://www.w3.org/2000/svg ">
+            <path d="M270 62V263H73 " stroke="#141414 " stroke-width="31 "/>
+            <path d="M263 263L11 11 " stroke="#141414 " stroke-width="31 "/>
+        </svg>
     </div>
 
-
-    <div class="about">
-        <div class="scroll-container">
-            <p id="scroll-text">About About About</p>
+    <div class="aboutIndex" data-scroll data-scroll-direction="horizontal" data-scroll-speed="2">
+        <div class="aboutOne">
+            <p>LP—001</p>
         </div>
-        <div class="text_about">
-            <h1>GRAPHIC & WEBDESIGNER</h1>
-            <div class="intro">
-                <p>Hey! My name is <a id="me">Laura Pais<img class="perfil" src="data/components/Foto.png"></a>, a designer from Coimbra, Portugal.</p>
-                <p>Graduated in Design and Multimedia at the University of Coimbra and currently finishing my master’s degree in Design and Multimedia, a course that combines programming and design.</p>
-
-            </div>
-            <div class="part2_intro">
-                <p>My main areas of interest are graphic design,  generative design, web design, web development, and typography.</p>
-                <p>I’m passionate about music, cinema, travelling and designing cool stuff.</p>
-            </div>
-
+        <div class="aboutTwo">
+            <p>Hey! I’m Laura Pais, a multidisciplinary designer from Coimbra, Portugal. I have a Master's and a Bachelor's degree in Design and Multimedia from the University of Coimbra.</p>
+            <p><br></p>
+            <p>My main areas of interest are graphic design, generative design, web design, web development, and typography. I’m passionate about music, cinema, travelling, and designing cool stuff.</p>
         </div>
-
-
-        <div class="scroll-container">
-            <p id="scroll-text_2">About About About</p>
-        </div>
-
     </div>
 
+    <div class="scroll-container">
+        <div id="scroll-text">
+            <p>Projects</p>
+            <img src="data/index/star.svg">
+            <p>Projects</p>
+            <img src="data/index/star.svg">
+            <p>Projects</p>
+            <img src="data/index/star.svg">
+            <p>Projects</p>
+        </div>
+        </div>
 
-    <div class="portfolio">
-
-        <!-- <div class="trabalho">
-
-
-             <div class="projeto">
-                 <span>Graphic Ground</span>
-                 <img class="hidden_img" src="data/projetos/corrupt_white.png" style="height: 20em">
-             </div>
-             <div class="descricao">
-                 <div>
-                     <p>Generative Design</p>
-                     <p>Web Design</p>
-                     <p>2023</p>
-                 </div>
-                 <div class="seta">
-                     <img src="data/components/seta.svg">
-                 </div>
-             </div>
-         </div>
-
-         <div class="line"></div>  -->
-
-        <div class="trabalho"
-             onclick="window.location.href='projectPages/altaBaixa.html'">
-
-            <div class="projeto">
-                <span>Alta & Baixa</span>
-                <img class="hidden_img" src="data/projetos/altaBaixa.jpg" style="height: 25em">
-            </div>
-            <div class="descricao">
+    <div class="grid-container projectIndex" data-scroll data-scroll-direction="top" data-scroll-speed="0">
+        <!---------------------------------------------1--------------------------------------------->
+        <div id="imgIndex1" class="grid-item">
+            <div class="imgContainer">
                 <div>
-                    <p>Graphic Design</p>
-                    <p>Web Design</p>
-                    <p>2022</p>
+                    <img class="hover-link" src="data/index/altaBaixa.jpg">
+                    <div class="efeito-hover"></div>
                 </div>
-                <div class="seta">
-                    <img src="data/components/seta.svg">
+                <div class="projectTagsIndex">
+                    <div>
+                        <p>Editorial Design</p>
+                    </div>
+                    <div>
+                        <p>Web Design</p>
+                    </div>
+                    <div>
+                        <p>Web Development</p>
+                    </div>
+                </div>
+                <div class="projectTitleIndex">
+                    <span>Alta & Baixa</span>
                 </div>
             </div>
         </div>
 
-        <div class="line"></div>
-
-        <!-- --------------------------------------------------------------------------------------------- -->
-        <div class="trabalho"
-             onclick="window.location.href='projectPages/aLeste.html'">
-
-            <div class="projeto">
-                <span>A Leste</span>
-                <img class="hidden_img" src="data/projetos/aleste.png" style="height: 25em">
-            </div>
-            <div class="descricao">
+        <!---------------------------------------------2--------------------------------------------->
+        <div id="imgIndex5" class="grid-item">
+            <div class="imgContainer">
                 <div>
-                    <p>Visual Identity</p>
-                    <p>Web Design</p>
-                    <p>2023</p>
+                    <img class="hover-link" src="data/index/disruptive.JPG">
+                    <div class="efeito-hover"></div>
                 </div>
-                <div class="seta">
-                    <img src="data/components/seta.svg">
+                <div class="projectTagsIndex">
+                    <div>
+                        <p>Editorial Design</p>
+                    </div>
+                    <div>
+                        <p>Web Design</p>
+                    </div>
+                    <div>
+                        <p>Web Development</p>
+                    </div>
+                </div>
+                <div class="projectTitleIndex">
+                    <span>Disruptive</span>
+                </div>
+            </div>
+        </div>
+        <!---------------------------------------------3--------------------------------------------->
+        <div id="imgIndex12" class="grid-item">
+            <div class="imgContainer">
+                <div>
+                    <img class="hover-link" src="data/index/crimes.png">
+                <div class="efeito-hover"></div>
+            </div>
+                <div class="projectTagsIndex">
+                    <div>
+                        <p>Editorial Design</p>
+                    </div>
+                    <div>
+                        <p>Web Design</p>
+                    </div>
+                    <div>
+                        <p>Web Development</p>
+                    </div>
+                </div>
+                <div class="projectTitleIndex">
+                    <span>Crimes Exemplares</span>
                 </div>
             </div>
         </div>
 
-        <div class="line"></div>
-
-        <!-- --------------------------------------------------------------------------------------------- -->
-        <!-- --------------------------------------------------------------------------------------------- -->
-
-        <div class="trabalho"
-             onclick="window.location.href='projectPages/corruptWhite.html'">
-
-            <div class="projeto">
-                <span>Corrupt White</span>
-                <img class="hidden_img" src="data/projetos/corrupt_white.png" style="height: 20em">
-            </div>
-            <div class="descricao">
+        <!---------------------------------------------4--------------------------------------------->
+        <div id="imgIndex3" class="grid-item">
+            <div class="imgContainer">
                 <div>
-                    <p>Interaction Design</p>
-                    <p>Web Design</p>
-                    <p>2021</p>
+                    <img class="hover-link" src="data/index/ccdm.png">
+                    <div class="efeito-hover"></div>
                 </div>
-                <div class="seta">
-                    <img src="data/components/seta.svg">
+                <div class="projectTagsIndex">
+                    <div>
+                        <p>Editorial Design</p>
+                    </div>
+                    <div>
+                        <p>Web Design</p>
+                    </div>
+                    <div>
+                        <p>Web Development</p>
+                    </div>
+                </div>
+                <div class="projectTitleIndex">
+                    <span>Ciclo de Conversas</span>
                 </div>
             </div>
         </div>
 
-        <div class="line"></div>
-
-        <!-- --------------------------------------------------------------------------------------------- -->
-        <div class="trabalho"
-             onclick="window.location.href='projectPages/ccdm.html'">
-
-            <div class="projeto">
-                <span>CCDM</span>
-                <img class="hidden_img" src="data/projetos/ciclo_conversas.png" style="height:15em">
-            </div>
-            <div class="descricao">
-                <div>
-                    <p>Visual Identity</p>
-                    <p>Web Design</p>
-                    <p>2021</p>
+        <!---------------------------------------------5--------------------------------------------->
+        <div id="imgIndex6" class="grid-item">
+            <div class="imgContainer">
+            <div>
+            <video class="hover-link" autoplay muted loop>
+                <source src="data/index/aleste.mp4" type="video/mp4">
+            </video>
+            <div class="efeito-hover"></div>
+        </div>
+                <div class="projectTagsIndex">
+                    <div>
+                        <p>Editorial Design</p>
+                    </div>
+                    <div>
+                        <p>Web Design</p>
+                    </div>
+                    <div>
+                        <p>Web Development</p>
+                    </div>
                 </div>
-
-                <div class="seta">
-                    <img src="data/components/seta.svg">
+                <div class="projectTitleIndex">
+                    <span>A Leste</span>
                 </div>
             </div>
         </div>
 
-        <div class="line"></div>
-
-
-        <!-- --------------------------------------------------------------------------------------------- -->
-
-        <div class="trabalho"
-             onclick="window.location.href='projectPages/disruptive.html'">
-
-            <div class="projeto">
-                <span>Disruptive</span>
-                <img class="hidden_img" src="data/projetos/Disruptive.png" style="height: 25em">
-            </div>
-            <div class="descricao">
+        <div id="imgIndex7" class="grid-item">
+            <div class="imgContainer">
                 <div>
-                    <p>Visual Identity</p>
-                    <p>Graphic Design</p>
-                    <p>2022</p>
+                    <video class="hover-link" autoplay muted loop>
+                        <source src="data/index/graphicGroundVideo_2.mp4" type="video/mp4">
+                    </video>
+                    <div class="efeito-hover"></div>
                 </div>
-                <div class="seta">
-                    <img src="data/components/seta.svg">
+                <div class="projectTagsIndex">
+                    <div>
+                        <p>Editorial Design</p>
+                    </div>
+                    <div>
+                        <p>Web Design</p>
+                    </div>
+                    <div>
+                        <p>Web Development</p>
+                    </div>
+                </div>
+                <div class="projectTitleIndex">
+                    <span>Graphic<br>Ground</span>
                 </div>
             </div>
         </div>
-
-        <div class="line"></div>
-
-        <!-- --------------------------------------------------------------------------------------------- -->
-
-        <div class="trabalho">
-
-            <div class="projeto"
-                 onclick="window.location.href='projectPages/darq.html'">
-                <span>Project Arq</span>
-                <img class="hidden_img" src="data/projetos/darq.png" style="height: 25em">
-            </div>
-            <div class="descricao">
+        <div id="imgIndex8" class="grid-item">
+            <div class="imgContainer">
                 <div>
-                    <p>Graphic Design</p>
-                    <p>2022</p>
+                    <img class="hover-link" src="data/index/disruptive2.png">
+                    <div class="efeito-hover"></div>
                 </div>
-                <div class="seta">
-                    <img src="data/components/seta.svg">
+                <div class="projectTagsIndex">
+                    <div>
+                        <p>Editorial Design</p>
+                    </div>
+                    <div>
+                        <p>Web Design</p>
+                    </div>
+                    <div>
+                        <p>Web Development</p>
+                    </div>
+                </div>
+                <div class="projectTitleIndex">
+                    <span>Disruptive</span>
                 </div>
             </div>
         </div>
-
-        <div class="line"></div>
-        <!-- --------------------------------------------------------------------------------------------- -->
-
-
-        <div class="trabalho"
-             onclick="window.location.href='projectPages/tamara.html'">
-
-            <div class="projeto">
-                <span>Tamara</span>
-                <img class="hidden_img" src="data/projetos/tamara.png" style="height: 25em">
-            </div>
-            <div class="descricao">
+        <div id="imgIndex9" class="grid-item">
+            <div class="imgContainer">
                 <div>
-                    <p>Typography</p>
-                    <p>Graphic Design</p>
-                    <p>2022</p>
+                    <img class="hover-link" src="data/index/alta&Baixa.jpg">
+                    <div class="efeito-hover"></div>
                 </div>
-                <div class="seta">
-                    <img src="data/components/seta.svg">
+                <div class="projectTagsIndex">
+                    <div>
+                        <p>Editorial Design</p>
+                    </div>
+                    <div>
+                        <p>Web Design</p>
+                    </div>
+                    <div>
+                        <p>Web Development</p>
+                    </div>
+                </div>
+                <div class="projectTitleIndex">
+                    <span>Alta & Baixa</span>
                 </div>
             </div>
         </div>
-
-        <div class="line"></div>
-
-        <!-- --------------------------------------------------------------------------------------------- -->
-
-
-        <div class="trabalho"
-             onclick="window.location.href='projectPages/gdtimeline.html'">
-            <div class="projeto">
-                <span>Graphic Design Timeline</span>
-                <img class="hidden_img" src="data/projetos/narrativa.png" style="height: 20em">
-            </div>
-            <div class="descricao">
-                <div>
-                    <p>Web Design</p>
-                    <p>2022</p>
-                </div>
-                <div class="seta">
-                    <img src="data/components/seta.svg">
-                </div>
-            </div>
+        <div id="spanGrid" class="grid-item">
+            <span class="hover-link"><a href="indexProjects.html">See more</a></span>
+            <img src="data/index/arrowIndex.svg">
         </div>
-
-        <div class="line"></div>
-
-        <!-- --------------------------------------------------------------------------------------------- -->
-
-        <div class="trabalho"
-             onclick="window.location.href='projectPages/osso.html'">
-
-            <div class="projeto">
-                <span>OSSO</span>
-                <img class="hidden_img" src="data/projetos/osso.png" style="height:20em">
-            </div>
-            <div class="descricao">
-                <div>
-                    <p>Web Design</p>
-                    <p>2022</p>
-                </div>
-                <div class="seta">
-                    <img src="data/components/seta.svg">
-                </div>
-            </div>
-        </div>
-
-        <div class="line"></div>
-
-
-
-        <!-- --------------------------------------------------------------------------------------------- -->
-
-        <div class="trabalho"
-             onclick="window.location.href='projectPages/crimesExemplares.html'">
-            <div class="projeto">
-                <span>Crimes Exemplares</span>
-                <img class="hidden_img" src="data/projetos/crimes_exemplares_tabuleiro.png" style="height: 35em">
-            </div>
-            <div class="descricao">
-                <div>
-                    <p>Graphic Design</p>
-                    <p>Interaction Design</p>
-                    <p>2019</p>
-                </div>
-                <div class="seta">
-                    <img src="data/components/seta.svg">
-                </div>
-            </div>
-        </div>
-
     </div>
+    <footer>
+        <div>
+            <p>Laura Pais © 2023</p>
+        </div>
+        <div class="footerContacts">
+            <a  class="hover-link" href="data/CV.pdf"><p>CV</p></a>
+            <a  class="hover-link" href="https://www.linkedin.com/in/laura-pais/"><p>Linkedin</p></a>
+            <a  class="hover-link" href="https://www.behance.net/paislaura"><p>Behance</p></a>
+        </div>
+    </footer>
+</main>
 
-<footer class="contacts">
-    <div>
-        <a href="portfolio.pdf" target="_blank"><span>Portfolio</span></a>
-        <a href="CV.pdf" target="_blank"><span>CV</span></a>
-        <a href="https://www.linkedin.com/in/laura-pais-319688173/" target="_blank"><span>Linkedin</span></a>
-        <a href="mailto:pais.laura@gmail.com" target="_blank"><span>E-Mail</span></a>
-    </div>
-</footer>
-</div>
 
-
+<div id="cursor"></div>
 <div class="hover">
     <div class="noise"></div>
 </div>
+<script src="js/cursor.js"></script>
 </body>
 
-<script src="ellipse.js"></script>
-<script src="mouse.js"></script>
 </html>
