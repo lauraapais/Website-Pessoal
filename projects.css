@@ -44,6 +44,7 @@
 .projectDescription p {
     margin-bottom: 1vh;
     margin-top: 1vh;
+    font-size: 1.1em;
 }
 
 .projectContext p {
@@ -95,18 +96,19 @@
 
 .imgWidth {
     width: 100%;
-    margin: 0 auto;
     display: flex;
     margin-top: 5vh;
+    filter: drop-shadow(0px 0px 9px rgb(205, 204, 202));
 }
 
 .graphicGroundImages div {
     width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 
 .graphicGroundImages .imgWidth {
-    width: 49%;
+    width: 48%;
 }
 
 .imgRow {
@@ -129,7 +131,7 @@
     margin: 0 auto;
     margin-top: 5vh;
     display: flex;
-    filter: drop-shadow(2px 4px 6px rgb(25, 25, 25));
+    filter: drop-shadow(0px 0px 9px rgb(205, 204, 202));
 }
 
 .mainImages a {
@@ -141,4 +143,49 @@
 .urlWebsite {
     text-decoration: none;
     font-size: calc(60px + 0.3vw);
+}
+
+/* MOBILE */
+
+@media only screen and (max-width: 600px) {
+
+    .mainTop {
+        margin-bottom: 1em;
+    }
+
+    .projectTitle span {
+        font-size: 14vw;
+        line-height: 3.8rem;
+    }
+
+    .projectDescription {
+        width: 100%;
+    }
+
+    .projectContext  {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .projectContext p {
+        width: 100%;
+        font-size: .9em !important;
+        margin: 0;
+    }
+
+    .projectContext p:last-child {
+        margin: 0;
+    }
+
+    .mainImages {
+        width: 92vw;
+    }
+    
+    .graphicGroundImages .imgWidth {
+        width: 45%;
+    }
+
+    .urlWebsite {
+        font-size: 2.3em
+    }
 }

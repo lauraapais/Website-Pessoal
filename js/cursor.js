@@ -20,14 +20,14 @@ hoverLinks.forEach((link) => {
     });
 });
 
-let scroll;
+let locoScroll;
 
 function initLocomotiveScroll() {
-    if (scroll) {
-        scroll.destroy(); // Destroy the existing instance
+    if (locoScroll) {
+        locoScroll.destroy(); // Destroy the existing instance
     }
 
-    scroll = new LocomotiveScroll({
+    locoScroll = new LocomotiveScroll({
         el: document.querySelector('[data-scroll-container]'),
         smooth: true,
         mobile: {
@@ -39,12 +39,10 @@ function initLocomotiveScroll() {
             breakpoint: 0
         }
     });
-
-    new ResizeObserver(() => scroll.update()).observe(
+    
+    new ResizeObserver(() => locoScroll.update()).observe(
         document.querySelector("[data-scroll-container]")
     );
 }
 
-window.addEventListener("load", (event) => {
-    initLocomotiveScroll();
-});
+window.addEventListener("load", initLocomotiveScroll);
