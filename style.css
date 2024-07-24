@@ -71,6 +71,7 @@ header {
     display: flex;
     align-content: center;
     justify-content: space-around;
+    justify-content: flex-end;
 }
 
 .menuHeader span {
@@ -213,7 +214,6 @@ header {
 .grid-item video {
     width: 100%;
     height: auto;
-    border-radius: 30px;
 }
 
 .grid-item:hover .efeito-hover {
@@ -241,7 +241,6 @@ header {
     background: var(--secondColor);
     opacity: 0;
     transition: opacity 0.5s;
-    border-radius: 30px;
 }
 
 .imgContainer {
