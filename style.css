@@ -397,20 +397,23 @@ header {
 
 .project {
     display: flex;
+    width: 88vw;
 }
 
 .projectTitle {
     margin: 0;
     display: flex;
     align-items: center;
+    width: 71vw;
 }
 
 .projectTitle span {
     font-size: calc(90px + 0.2vw);
+    line-height: calc(90px + 0.2vw);
 }
 
 .projectTitleOverflow {
-    height: calc(210px + 0.2vw);
+    /*height: calc(210px + 0.2vw);*/
     line-height: calc(90px);
 }
 
@@ -425,7 +428,7 @@ header {
 }
 
 .seta img {
-    width: 4em;
+    width: 4vw;
 }
 
 .seta {
@@ -451,18 +454,21 @@ header {
 }
 
 .projectTags div {
-    height: 26px;
+    /*height: 26px;*/
     border: 1px solid var(--secondColor);
-    border-radius: 20px;
+    border-radius: 1.2rem;
+    margin-bottom: 0.4rem;
+    margin-right: 0.4rem;
     justify-content: center;
     align-items: center;
-    padding-top: 2px;
+    /*padding-top: 2px;
     padding-left: 8px;
-    padding-right: 8px;
+    padding-right: 8px;*/
     display: flex;
     width: fit-content;
-    margin-right: 0.4vw;
-    margin-bottom: 0.4vw;
+    /*margin-right: 0.4vw;
+    margin-bottom: 0.4vw;*/
+    padding: 0.4rem 0.8rem;
 }
 
 .projectTags {
@@ -474,6 +480,7 @@ header {
 .projectTags p {
     font-size: calc(11px + 0.2vw);
     color: var(--secondColor);
+    margin: 0;
 }
 
 .projectCategory {
@@ -688,9 +695,9 @@ footer a {
         margin: 0;
     }
 
-    .projectTags div {
+    /*.projectTags div {
         margin: .1rem .25rem .1rem 0;
-    }
+    }*/
 
     footer {
         flex-direction: column;
