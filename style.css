@@ -30,6 +30,7 @@ span {
     color: var(--secondColor);
     font-family: "Switzer";
     font-weight: 500;
+    text-wrap: pretty;
 }
 
 p {
@@ -37,6 +38,7 @@ p {
     font-family: "Switzer";
     font-weight: 500;
     font-style: normal;
+    text-wrap: pretty;
 }
 
 nav {
