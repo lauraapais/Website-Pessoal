@@ -420,7 +420,7 @@ header {
 }
 
 .descricao {
-    width: 15vw;
+    width: 20vw;
     margin-right: 2vw;
     display: flex;
     align-items: flex-start;
@@ -440,14 +440,23 @@ header {
 
 .hidden_img {
     opacity: 0;
-    z-index: -1;
-    position: fixed;
+    position: absolute; 
     pointer-events: none;
-    transform: translate(-50%, -50%);
+    transform: translate(0%, 25%);
+    z-index: 9999;
+    transition: opacity 0.2s ease;
+    width: auto;
+    height: 25em;
+    right: 0;
+    bottom: 0;
 }
 
-.project:hover .hidden_img {
-    opacity: 1;
+.trabalho:hover .hidden_img {
+    opacity: 1; 
+}
+
+.trabalho {
+    position: relative;
 }
 
 .line {
@@ -672,6 +681,11 @@ footer a {
 
     .projectTitle span {
         font-size: 2em;
+        line-height: 2.5em;
+    }
+
+    .hidden_img{
+        display: none;
     }
 
     .seta img {
