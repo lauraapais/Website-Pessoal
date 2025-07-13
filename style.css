@@ -54,8 +54,8 @@ header {
 
 .role {
     display: inline-grid;
-    font-size: calc(42px + 0.2vw);
-    line-height: calc(45px);
+    font-size: 30px;
+    line-height: 33px;
     position: relative;
     margin-left: 1vw;
 }
