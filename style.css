@@ -681,7 +681,7 @@ footer a {
 
     .projectTitle span {
         font-size: 2em;
-        line-height: 2.5em;
+        line-height: 1.2em;
     }
 
     .hidden_img{
@@ -767,4 +767,5 @@ footer a {
     .projectTagsIndex, .projectTitleIndex {
         opacity: 100%;
     }
+
 }
