@@ -282,6 +282,8 @@ header a:hover{
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 20px;
   grid-column: 1 / span 12;
+
+  cursor: pointer;
 }
 
 .projectList .projectGrid-project:hover .projectGrid-image {
