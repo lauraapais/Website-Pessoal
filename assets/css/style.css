@@ -164,6 +164,10 @@ header a:hover{
  
 }
 
+.projectGrid-context{
+  display: none;
+}
+
 /*Grid*/
 .projectGrid {
   grid-column: 1 / span 12;
@@ -359,6 +363,7 @@ header a:hover{
 
 .projectHeader-context {
   grid-column: span 2;
+ 
 }
 
 .list-or-grid {
