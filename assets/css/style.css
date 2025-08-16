@@ -284,6 +284,7 @@ header a:hover{
   opacity: 1;
 }
 
+/*
 .projectList .projectGrid-project:hover .projectGrid-context {
   opacity: 50%;
 }
@@ -294,7 +295,7 @@ header a:hover{
 
 .projectList .projectGrid-project:hover .projectGrid-year {
   opacity: 50%;
-}
+}*/
 
 .projectList .projectGrid-year {
   order: 1;
