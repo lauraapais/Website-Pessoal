@@ -534,7 +534,7 @@ grid-column: span 12;
 }
 
 #projectList-header {
-   opacity: 0;
+   display: none;
 }
 
 
