@@ -5,186 +5,223 @@
     <meta charset="UTF-8">
     <title>Laura Pais</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="cursor.css">
-    <link rel="stylesheet" href="mobile.css">
-    <link rel="stylesheet" href="locomotive-scroll.css">
-    <!-- JAVASCRIPT-->
-    <script src="js/locomotive-scroll.min.js"></script>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="data/favicon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="data/favicon.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="data/favicon.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+
+    <script src="assets/js/aos.js"> </script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/data/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/data/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/data/favicon.png">
 </head>
 
-<body data-scroll-container>
-
-    <header data-scroll-section>
-        <svg width="53" height="53" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g clip-path="url(#clip0_53_53)">
-                <path d="M26.6366 52.9224L29.3857 52.7461L28.1032 32.7512L25.3541 32.9275L26.6366 52.9224Z"
-                    fill="#141414" />
-                <path d="M16.5391 51.0347L19.1464 51.9238L25.6133 32.9601L23.006 32.071L16.5391 51.0347Z"
-                    fill="#141414" />
-                <path d="M7.92467 45.4225L9.99323 47.2417L23.2249 32.1963L21.1564 30.3771L7.92467 45.4225Z"
-                    fill="#141414" />
-                <path d="M2.11961 36.9427L3.33453 39.415L21.3167 30.5784L20.1017 28.1061L2.11961 36.9427Z"
-                    fill="#141414" />
-                <path d="M-0.00146237 26.8944L0.174866 29.6434L20.1698 28.3609L19.9935 25.6119L-0.00146237 26.8944Z"
-                    fill="#141414" />
-                <path d="M1.88746 16.796L0.998352 19.4033L19.9621 25.8702L20.8512 23.2629L1.88746 16.796Z"
-                    fill="#141414" />
-                <path d="M7.49626 8.18852L5.67706 10.2571L20.7225 23.4888L22.5417 21.4202L7.49626 8.18852Z"
-                    fill="#141414" />
-                <path d="M15.9729 2.37736L13.5006 3.59229L22.3372 21.5744L24.8095 20.3595L15.9729 2.37736Z"
-                    fill="#141414" />
-                <path d="M26.0254 0.258364L23.2763 0.434692L24.5588 20.4296L27.3079 20.2533L26.0254 0.258364Z"
-                    fill="#141414" />
-                <path d="M36.1227 2.14168L33.5154 1.25256L27.0485 20.2163L29.6558 21.1054L36.1227 2.14168Z"
-                    fill="#141414" />
-                <path d="M44.7337 7.75218L42.6651 5.93298L29.4334 20.9784L31.502 22.7976L44.7337 7.75218Z"
-                    fill="#141414" />
-                <path d="M50.5427 16.2278L49.3278 13.7555L31.3457 22.5921L32.5606 25.0644L50.5427 16.2278Z"
-                    fill="#141414" />
-                <path d="M52.6625 26.283L52.4862 23.5339L32.4913 24.8164L32.6676 27.5655L52.6625 26.283Z"
-                    fill="#141414" />
-                <path d="M50.7787 36.3857L51.6678 33.7784L32.7041 27.3116L31.815 29.9189L50.7787 36.3857Z"
-                    fill="#141414" />
-                <path d="M45.1651 44.9939L46.9843 42.9253L31.9388 29.6936L30.1196 31.7622L45.1651 44.9939Z"
-                    fill="#141414" />
-                <path d="M36.6923 50.7982L39.1646 49.5833L30.328 31.6011L27.8557 32.8161L36.6923 50.7982Z"
-                    fill="#141414" />
-                <path
-                    d="M26.1251 34.2691C30.1557 34.2691 33.4231 31.0016 33.4231 26.9711C33.4231 22.9405 30.1557 19.6731 26.1251 19.6731C22.0946 19.6731 18.8271 22.9405 18.8271 26.9711C18.8271 31.0016 22.0946 34.2691 26.1251 34.2691Z"
-                    fill="#141414" />
-            </g>
-            <defs>
-                <clipPath id="clip0_53_53">
-                    <rect width="52.6614" height="52.6614" fill="white" transform="translate(0 0.256348)" />
-                </clipPath>
-            </defs>
-        </svg>
-        <nav>
-            <div class="role">
-                <span>Graphic Designer<br>Web Designer + Developer</span>
-            
-            </div>
-            <div class="menuHeader">
-                <span class="hover-link"><a href="projects">PROJECTS</a></span>
-            </div>
+<body>
+    <!-- Header -->
+    <header class="grid marginBody">
+        <div class="header-col1">
+            <a href="index.html">
+                <p class="caps">Laura Pais</p>
+            </a>
+        </div>
+        <nav class="header-col2">
+            <a href="projects.html">
+                <p class="caps">[Projects]</p>
+            </a>
+            <a href="about.html">
+                <p class="caps">[About]</p>
+            </a>
         </nav>
     </header>
 
-    <main data-scroll-section>
-        <div class="mainIndex">
-            <div class="nameIndex">
-                <span class="hover-link" id="lauraPais"><a id="me">Laura Pais</a></span>
+    <main class="marginBody marginTop">
+        <div class="heroIndex grid">
+            <div class="profile-photo">
+                <img src="assets/data/general/7c15448a-2e7b-4495-9dae-0f63722c6e50.jpg">
             </div>
-            <svg width=" 286 " height="279 " viewBox="0 0 286 279 " fill="none " xmlns="http://www.w3.org/2000/svg ">
-                <path d="M270 62V263H73 " stroke="#141414 " stroke-width="31 " />
-                <path d="M263 263L11 11 " stroke="#141414 " stroke-width="31 " />
-            </svg>
-        </div>
 
-        <div class="aboutIndex" data-scroll data-scroll-direction="horizontal" data-scroll-speed="2">
-            <div class="aboutOne">
-                <p>LP—001</p>
+            <div class="profile-description">
+                <p class="exposureFont">:)<br>
+                    Designer and <br>
+                    Web Developer<br>
+                </p>
             </div>
-            <div class="aboutTwo" id="aboutSection">
-                <p>A multidisciplinary designer based in Porto.<br>
-Currently working as a designer and web developer 
-@united by, with additional experience as a freelancer.<br>
-Strongly interested in digital design, web design, web development, creative coding and print.</p>
-            </div>
-        </div>
 
-        <div class="scroll-container">
-            <div id="scroll-text">
-                <p>Projects</p>
-                <img src="data/index/star.svg">
-                <p>Projects</p>
-                <img src="data/index/star.svg">
-                <p>Projects</p>
-                <img src="data/index/star.svg">
-                <p>Projects</p>
+            <div class="profile-about">
+                <p class="exposureFont">@united by<br>
+                    + freelancer</p>
+
+                <p class="h2 caps profile-about-text">
+                    A multidisciplinary designer based in Porto.<br>
+                    Currently working as a designer and web developer @united by, with additional experience as a
+                    freelancer.<br>
+                    Strongly interested in digital design, web design, web development, creative coding and print.
+                </p>
             </div>
         </div>
 
-        <div class="grid-container projectIndex" data-scroll data-scroll-direction="top" data-scroll-speed="0">
-            <!---------------------------------------------1--------------------------------------------->
-            <div id="imgIndex1" class="grid-item">
-                    <div class="imgContainer hover-link">
-                        <div>
-                            <img  src="data/projects/cae/cae1.png">
-                        </div>
-                        
-                    </div>
+
+        <!--FEATURED WORK-->
+        <div class="featuredWork grid">
+            <div class="featuredWork-title">
+                <p class="h1 caps">[Featured Work]</p>
             </div>
 
-            <!---------------------------------------------2--------------------------------------------->
-            <div id="imgIndex5" class="grid-item">
-                    <div class="imgContainer hover-link">
-                        <div>
-                            <img src="data/index/altaBaixa.jpg">
-                        </div>
+            <!--Grid-->
+            <div class="projectGrid grid">
+
+                 <!--Project-->
+                <div class="projectGrid-project vertical" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000">
+                    <p class="caps projectGrid-title">Pedro Lima</p>
+                    <p class="projectGrid-year">2024—2025</p>
+                    <p class="projectGrid-context caps">Freelance</p>
+                    <div class="projectGrid-image">
+                    <img src="assets/data/general/pedrolima.png">
                     </div>
-            </div>
-            <!---------------------------------------------3--------------------------------------------->
-            <div id="imgIndex12" class="grid-item">
-                    <div class="imgContainer hover-link">
-                        <div>
-                            <img  src="data/index/disruptive2.png">
-                        </div>
-                    </div>
-            </div>
-
-       
-
-            <div id="imgIndex7" class="grid-item">
-                <div class="imgContainer hover-link">
-                        <div>
-                                                        <img  src="data/projects/pedro lima/Pedro Lima.png">
-
-                        </div>
-                        
                 </div>
-            </div>
-            <div id="imgIndex8" class="grid-item">
-                <div class="imgContainer hover-link">
-                        <div>
-                            <img  src="data/projects/tml/tml2.png">
-                        </div>
-                        
-                </div>
-            </div>
-            <div id="imgIndex9" class="grid-item">
-                <div class="imgContainer hover-link">
-                    <div>
-                        <img src="data/index/alta&Baixa.jpg">
+
+                <!--Project-->
+                <div class="projectGrid-project horizontal" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000">
+                    <p class="caps projectGrid-title">Cae Vale de Cambra</p>
+                    <p class="projectGrid-year">2024—2025</p>
+                    <p class="projectGrid-context caps">united by</p>
+                    <div class="projectGrid-image">
+                    <img src="assets/data/general/cae.png">
                     </div>
-                    
                 </div>
+
+                 <!--Project-->
+                <div class="projectGrid-project horizontal" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000">
+                    <p class="caps projectGrid-title">Teatro Municipal da Lousã</p>
+                    <p class="projectGrid-year">2024</p>
+                    <p class="projectGrid-context caps">United by</p>
+                    <div class="projectGrid-image">
+                    <img src="assets/data/projects - highlight/tml.png">
+                    </div>
+                </div>
+
+
+                <!--Project-->
+                <div class="projectGrid-project horizontal" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000">
+                    <p class="caps projectGrid-title">António Pinho Vargas</p>
+                    <p class="projectGrid-year">2025</p>
+                    <p class="projectGrid-context caps">Freelance</p>
+                    <div class="projectGrid-image">
+                    <img src="assets/data/projects - highlight/vargas.png">
+                    </div>
+                </div>
+
+                
+ <!--Project-->
+                <div class="projectGrid-project vertical" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000">
+                    <p class="caps projectGrid-title">Index Coexistence</p>
+                    <p class="projectGrid-year">2024</p>
+                    <p class="projectGrid-context caps">United by</p>
+                    <div class="projectGrid-image">
+                    <img src="assets/data/projects - highlight/index.jpg">
+                    </div>
+                </div>
+                
+                
+
+                <!--Project-->
+                <div class="projectGrid-project vertical" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000">
+                    <p class="caps projectGrid-title">Cesário Costa</p>
+                    <p class="projectGrid-year">2025</p>
+                    <p class="projectGrid-context caps">Freelance</p>
+                    <div class="projectGrid-image">
+                        <img src="assets/data/projects - highlight/cesario_mockup_2.jpg">
+                    </div>
+                </div>
+
+
+               
+
+                <!--Project-->
+                <div class="projectGrid-project horizontal" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000">
+                    <p class="caps projectGrid-title">Disruptive</p>
+                    <p class="projectGrid-year">2022</p>
+                    <p class="projectGrid-context caps">Academic</p>
+                    <div class="projectGrid-image">
+                    <img src="assets/data/projects - highlight/disruptive2.png">
+                    </div>
+                </div>
+
+
+                
+ 
+               
+
+                <!--Project-->
+                <div class="projectGrid-project horizontal" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000">
+                    <p class="caps projectGrid-title">Alta & Baixa</p>
+                    <p class="projectGrid-year">2022</p>
+                    <p class="projectGrid-context caps">Academic</p>
+                    <div class="projectGrid-image">
+                    <img src="assets/data/projects - highlight/altaBaixa.jpg">
+                    </div>
+                </div>
+
+                
             </div>
-            <div id="spanGrid" class="grid-item">
-                <span class="hover-link"><a href="projects/">See more</a></span>
-                <img src="data/index/arrowIndex.svg">
+
+            <div class="viewAll">
+                <a href="projects.html">
+                <p class="h2 exposureFont">[View all projects]</p>
+                </a>
             </div>
         </div>
-
-        <footer>
-            <div>
-                <p>Laura Pais © 2025</p>
-            </div>
-        </footer>
     </main>
 
+    <!--Footer-->
+    <footer>
+        <div class="footer-roles">
+            <p class="h3 caps">
+                Branding<br>
+                Graphic Design<br>
+                Web design<br>
+                Web Development
+            </p>
+        </div>
 
-    <div id="cursor"></div>
-    <div class="hover">
-        <div class="noise"></div>
-    </div>
-    <script src="js/cursor.js"></script>
+        <div class="footer-letsTalk">
+            <p class="h1">→</p>
+            <a href="mailto:pais.laura@gmail.com" target="blank"><p class="exposureFont h1">Let’s Talk</p></a>
+        </div>
+
+
+        <div class="grid footer-foot">
+            <div class="footer-col3">
+                <p>Designer and<br>Web Developer</p>
+            </div>
+            <div class="footer-col2">
+                <p>EMAIL<br>
+                    <a href="mailto:pais.laura@gmail.com" target="blank">pais.laura@gmail.com</a>
+                </p>
+            </div>
+            <div class="footer-col2">
+                <p>
+                    IG<br>
+                    <a href="https://www.instagram.com/laurapais.work/" target="blank">@laurapais.work</a>
+                </p>
+            </div>
+            <div class="footer-col2">
+                <p>
+                    BEHANCE<br>
+                    <a href="https://www.behance.net/paislaura" target="blank">
+                        behance.net/paislaura</a>
+                </p>
+            </div>
+
+            <div class="footer-col3 footer-col3-end">
+                <p>© 2025</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/index.js"> </script>
+    <script>AOS.init();</script>
+
 </body>
 
 </html>
