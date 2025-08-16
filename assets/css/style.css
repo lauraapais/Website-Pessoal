@@ -105,6 +105,10 @@ header a:hover{
     text-decoration: underline;
 }
 
+.selected{
+  text-decoration: underline;
+}
+
 /*Index*/
 .profile-photo {
   grid-column: 1 / span 2;
@@ -205,19 +209,20 @@ header a:hover{
 .projectGrid .projectGrid-project {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-gap: 20px;
+  grid-gap: 10px;
 }
 
 
 
 .projectGrid .projectGrid-title {
-  grid-column: span 4;
+  grid-column: span 3;
 }
 
 .projectGrid .projectGrid-year {
-  grid-column: span 2;
+  grid-column: span 3;
   display: flex;
   justify-content: flex-end;
+  text-align: end;
 }
 
 .projectGrid-image {
