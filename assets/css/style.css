@@ -200,14 +200,14 @@ header a:hover{
 
 .projectGrid .projectGrid-project {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   grid-gap: 20px;
 }
 
 
 
 .projectGrid .projectGrid-title {
-  grid-column: span 2;
+  grid-column: span 4;
 }
 
 .projectGrid .projectGrid-year {
@@ -217,7 +217,7 @@ header a:hover{
 }
 
 .projectGrid-image {
-  grid-column: span 4;
+  grid-column: span 6;
   
 }
 
@@ -636,7 +636,7 @@ grid-column: span 12;
 }
 
 .projectGrid-image {
-    grid-column: span 4;
+    grid-column: span 6;
 }
 
 
@@ -657,7 +657,9 @@ grid-column: span 12;
 .header-col2 {
     grid-column: 4 / span 3;
     justify-content: space-between;
-    gap: 20px;
+    gap: 10px;
+        flex-direction: column;
+    align-items: flex-end;
 }
 
 .viewAll{
