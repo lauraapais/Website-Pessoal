@@ -5,6 +5,13 @@ document.addEventListener('DOMContentLoaded', function() {
     const projectListheader = document.getElementById('projectList-header');
     const projectGridContexts = document.querySelectorAll('.projectGrid-context'); // Get ALL elements
     
+    // Initialize with grid mode active
+    projectListheader.style.display = "none";
+    gridButton.classList.add('active');
+    projectGridContexts.forEach(element => {
+        element.style.display = "none";
+    });
+
     listButton.addEventListener('click', function() {
         projectGrid.classList.remove('projectGrid');
         projectGrid.classList.add('projectList');

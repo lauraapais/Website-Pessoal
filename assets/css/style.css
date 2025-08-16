@@ -160,13 +160,13 @@ header a:hover{
 .viewAll a:hover{
   text-decoration: underline;
   cursor: pointer;
-
- 
 }
 
 .projectGrid-context{
   display: none;
 }
+
+
 
 /*Grid*/
 .projectGrid {
@@ -532,6 +532,11 @@ grid-column: span 12;
   gap:10px;
   justify-content: space-between;
 }
+
+#projectList-header {
+   opacity: 0;
+}
+
 
 @media only screen and (max-width: 1600px) {
   p {
