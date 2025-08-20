@@ -558,8 +558,8 @@ grid-column: span 12;
   }
 
   .h2 {
-    font-size: 22px;
-    line-height: 27px;
+    font-size: 25px;
+    line-height: 30px;
   }
 
   .h3 {
@@ -581,13 +581,13 @@ grid-column: span 12;
   }
 
   .h2 {
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 18px;
+    line-height: 23px;
   }
 
   .h3 {
-    font-size: 18px;
-    line-height: 23px;
+    font-size: 16px;
+    line-height: 21px;
   }
   
   .marginBody {
