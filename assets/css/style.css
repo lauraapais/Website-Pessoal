@@ -703,6 +703,10 @@ footer {
             flex-direction: column;
 }
 
+.footer-letsTalk-arrow{
+  display: none;
+}
+
 .footer-col3 {
     grid-column: span 6;
 }
