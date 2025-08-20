@@ -700,6 +700,7 @@ footer {
     gap: 10px;
     justify-content: flex-start;
         margin-top: 50px;
+            flex-direction: column;
 }
 
 .footer-col3 {
