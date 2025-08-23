@@ -212,6 +212,24 @@ header a:hover{
   grid-gap: 10px;
 }
 
+.vertical .project-link{
+  width: 100%;
+  grid-column: span 6;
+  text-decoration: none;
+  color: var(--secondColor)
+}
+
+.horizontal .project-link{
+  width: 100%;
+  grid-column: span 6;
+  text-decoration: none;
+  color: var(--secondColor)
+}
+
+
+.project-link:hover  .projectGrid-title{
+  text-decoration: underline;
+}
 
 
 .projectGrid .projectGrid-title {
@@ -291,22 +309,11 @@ header a:hover{
   cursor: pointer;
 }
 
-.projectList .projectGrid-project:hover .projectGrid-image {
-  opacity: 1;
-}
 
-/*
-.projectList .projectGrid-project:hover .projectGrid-context {
+
+.project-link:hover .projectGrid-image {
   opacity: 50%;
 }
-
-.projectList .projectGrid-project:hover .projectGrid-title {
-  opacity: 50%;
-}
-
-.projectList .projectGrid-project:hover .projectGrid-year {
-  opacity: 50%;
-}*/
 
 .projectList .projectGrid-year {
   order: 1;
@@ -527,14 +534,14 @@ grid-column: span 12;
 }
 
 .singleAbout-year{
-  grid-column: span 1;
+  grid-column: span 2;
 }
 
 .singleAbout-category{
   grid-column: span 3;
 }
 .singleAbout-context{
-  grid-column: span 7;
+  grid-column: span 6;
   display: flex;
   gap:10px;
   justify-content: space-between;
@@ -542,6 +549,22 @@ grid-column: span 12;
 
 #projectList-header {
    display: none;
+}
+
+.credits-single{
+grid-column: span 6;
+}
+
+.credits-title{
+  text-decoration: underline;
+}
+
+.credits-single-content{
+  column-count: 2;
+}
+
+.credits-margin{
+  margin-bottom: 1rem;
 }
 
 
