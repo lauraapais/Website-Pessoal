@@ -492,6 +492,7 @@ grid-column: span 12;
 /*single*/
 .singleImage-all{
   width: 100%;
+  grid-column: span 12;
 }
 .singleImage-all img{
   width:100%;
@@ -500,6 +501,7 @@ grid-column: span 12;
 .singleImage-two{
   display: flex;
   gap: 20px;
+  grid-column: span 12;
 }
 
 .singleImage-two img{
@@ -513,6 +515,11 @@ grid-column: span 12;
     margin: 0;
     padding: 0;
     overflow: hidden; /* Ensures no extra spacing */
+    grid-column: span 12;
+}
+
+.singleImages-container{
+  grid-gap: 20px;
 }
 
 .singleImage-all-iframe iframe {
@@ -522,9 +529,6 @@ grid-column: span 12;
     display: block; /* Remove inline spacing */
 }
 
-.singleImages-container div{
-  margin-bottom: 20px;
-}
 
 .singleAbout{
   margin-bottom: 100px;
@@ -553,11 +557,9 @@ grid-column: span 12;
 
 .credits-single{
 grid-column: span 6;
+    margin-top: 50px;
 }
 
-.credits-title{
-  text-decoration: underline;
-}
 
 .credits-single-content{
   column-count: 2;
@@ -565,6 +567,17 @@ grid-column: span 6;
 
 .credits-margin{
   margin-bottom: 1rem;
+}
+
+.credits-margin a{
+  text-decoration: underline;
+  color: var(--secondColor);
+  opacity: 100%;
+  transition: opacity 0.5s ease;
+}
+
+.credits-margin a:hover{
+  opacity: 50%;
 }
 
 
@@ -809,6 +822,14 @@ footer {
     width: 100%;
 }
 
+.singleAbout{
+  margin-bottom: 50px;
+}
+
+.credits-single {
+    margin-top: 20px;
+}
+
 .singleAbout-context {
     grid-column: span 7;
     display: flex
@@ -820,12 +841,13 @@ footer {
 
     .singleAbout-context {
         grid-column: 1 / span 6;
-        display: flex
-;
+        display: flex;
         gap: 10px;
         justify-content: space-between;
         flex-direction: column;
     }
 
-
+    .credits-single-content{
+      column-count: 1;
+    }
 }
