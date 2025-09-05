@@ -201,10 +201,6 @@ header a:hover{
 }
 
 
-/*
-.projectGrid .projectGrid-project:hover .projectGrid-image {
-  opacity: 50%;
-}*/
 
 .projectGrid .projectGrid-project {
   display: grid;
@@ -535,6 +531,11 @@ grid-column: span 12;
 }
 .singleAbout-text{
   grid-column: span 8;
+      
+}
+
+.indent{
+text-indent: 30px;
 }
 
 .singleAbout-year{
