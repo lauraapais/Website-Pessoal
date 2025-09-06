@@ -193,6 +193,11 @@ header a:hover{
   opacity: 100%;
   transition: opacity 0.5s ease;
   position: initial;
+      
+}
+
+.projectGrid-image{
+  object-fit: cover;
 }
 
 .projectGrid .projectGrid-image img {
@@ -308,7 +313,12 @@ header a:hover{
 
 
 .project-link:hover .projectGrid-image {
-  opacity: 50%;
+  opacity: 50% !important;
+}
+
+.projectList .project-link:hover .projectGrid-image,
+.projectList .project-link:hover .projectGrid-image img {
+  opacity: 1 !important;
 }
 
 .projectList .projectGrid-year {
