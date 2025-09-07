@@ -227,7 +227,6 @@ header a:hover{
   color: var(--secondColor)
 }
 
-
 .project-link:hover  .projectGrid-title{
   text-decoration: underline;
 }
