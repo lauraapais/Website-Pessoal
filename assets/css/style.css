@@ -807,9 +807,24 @@ footer a:hover {
   }
 
   /*single*/
+  .singleAbout-year{
+    grid-column: span 6;
+  }
   .singleImage-two {
     flex-direction: column;
   }
+
+  .singleImage-all{
+    grid-column: span 6;
+  }
+
+  .singleImage-two {
+    grid-column: span 6;
+}
+
+.singleImage-all-iframe {
+    grid-column: span 6;
+}
 
   .singleImage-two img {
     width: 100%;
