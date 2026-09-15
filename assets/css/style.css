@@ -704,7 +704,7 @@ html.lab *::after {
         font-size: 60px;
     }
 
-    /*grid*/
+    /*grid*/r
     .span-m-1 {
         grid-column: span 1;
     }
