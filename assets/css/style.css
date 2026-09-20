@@ -242,10 +242,13 @@ body {
 
 .about-image {
     grid-column: 8 / span 5;
+    aspect-ratio: 3/4;
 }
 
 .about-image img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .main-spacing {
